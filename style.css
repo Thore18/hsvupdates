@@ -25,14 +25,14 @@ header a img {
 }
 
 
-nav {
+nav, footer {
     position: sticky;
     top: 0px;
     backdrop-filter: blur(16px);
 }
 
 
-nav ul {
+nav ul, footer ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -40,7 +40,7 @@ nav ul {
     padding-bottom: 24px;
 }
 
-nav ul li a {
+nav ul li a, footer ul li a {
     text-decoration: none;
     color: rgb(4, 4, 145);
     font-weight: 700;
@@ -115,4 +115,18 @@ section a {
 
 .anordnen {
     width: 20%;
+}
+
+.liste {
+    list-style: disc;
+    margin-left: 16px;
+    padding: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+section h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
 }
